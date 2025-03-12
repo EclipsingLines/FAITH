@@ -1,0 +1,51 @@
+# Chulapa theme configuration
+remote_theme: dieghernan/chulapa
+
+# Required plugins for Chulapa theme
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-github-metadata
+  - jekyll-include-cache
+
+# Site Settings and SEO
+locale: "en-US"
+title: FAITH Project
+title_separator: " | "
+subtitle: Faith is Active Inference for Thinking Humans
+description: Faith is Active Inference for Thinking Humans. Enhancing NPCs and Robotic Agents.
+url: https://eclipsinglines.github.io
+baseurl: /FAITH
+repository: EclipsingLines/FAITH
+author:
+   name: EclipsingLines
+   links:
+     - url: https://linktr.ee/eclipsinglines
+       icon: "fas fa-link"
+       label: Linktree
+
+# Theme and layout settings
+chulapa-skin:
+  skin  : solar
+  highlight   : "ZENBURN"
+header_type: base
+footer:
+  copyright: '&copy; <a href="https://linktr.ee/eclipsinglines" target="_blank">EclipsingLines</a> 2025'
+
+github:
+  is_project_page: true
+  repository_url: "https://github.com/EclipsingLines/FAITH"
+
+# Social links (optional)
+social:
+  github: EclipsingLines/FAITH
+
+# FontAwesome
+fa_version: "6"
+
+# Search settings (optional)
+search:
+  provider: lunr
+  label: Search
+  landing_page: /search
