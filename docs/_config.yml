@@ -27,8 +27,8 @@ author:
 
 # Theme and layout settings
 chulapa-skin:
-  skin  : solar
-  highlight   : "ZENBURN"
+  skin: solar
+  highlight: "ZENBURN"
 header_type: base
 footer:
   copyright: '&copy; <a href="https://linktr.ee/eclipsinglines" target="_blank">EclipsingLines</a> 2025'
