@@ -1,6 +1,4 @@
 # Chulapa theme configuration
-remote_theme: dieghernan/chulapa
-
 # Required plugins for Chulapa theme
 plugins:
   - jekyll-paginate
@@ -26,9 +24,6 @@ author:
        label: Linktree
 
 # Theme and layout settings
-chulapa-skin:
-  skin: solar
-  highlight: "ZENBURN"
 header_type: base
 footer:
   copyright: '&copy; <a href="https://linktr.ee/eclipsinglines" target="_blank">EclipsingLines</a> 2025'
