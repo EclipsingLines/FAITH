@@ -99,7 +99,7 @@ flowchart TD
 
 The FAITH architecture is organized into three main layers:
 
-### [Core Library](../implementation/core-library.html)
+### [Core Library](/core-library/)
 
 The engine-agnostic foundation that implements the cognitive systems:
 
@@ -110,7 +110,7 @@ The engine-agnostic foundation that implements the cognitive systems:
 - LLM Orchestration
 - Core Systems
 
-### [Engine Bindings](../implementation/engine-bindings.html)
+### [Engine Bindings](/engine-bindings/)
 
 Adapters that connect the Core Library to specific game engines:
 
@@ -118,7 +118,7 @@ Adapters that connect the Core Library to specific game engines:
 - Game Engine Implementations (Godot, Unreal, Unity)
 - Development Tools
 
-### [Game-Specific Systems](../implementation/game-specific-systems.html)
+### [Game-Specific Systems](/game-specific-systems/)
 
 Customizations that adapt FAITH to particular games:
 
