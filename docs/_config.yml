@@ -1,6 +1,7 @@
 remote_theme: pages-themes/hacker@v0.2.0
 plugins:
 - jekyll-remote-theme
+- jekyll-redirect-from
 
 # Site Settings and SEO
 locale: "en-US"
@@ -39,6 +40,12 @@ search:
   provider: lunr
   label: Search
   landing_page: /search
+
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:path/
 
 # Navigation structure
 navigation:
