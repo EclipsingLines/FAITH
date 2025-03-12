@@ -78,5 +78,5 @@ Each engine binding includes:
 
 The Engine Bindings layer connects to:
 
-- [Core Library](core-library.html): The engine-agnostic AI systems
-- [Game-Specific Systems](game-specific-systems.html): Customizations for particular games
+- [Core Library](/core-library/): The engine-agnostic AI systems
+- [Game-Specific Systems](/game-specific-systems/): Customizations for particular games

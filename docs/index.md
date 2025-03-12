@@ -41,9 +41,9 @@ flowchart TB
 
 ## Documentation
 
-- [Conceptual Overview](./pages/overview/conceptual-overview.html)
-- [Proposed Architecture](./pages/development/proposed-architecture.html)
-- [Development Timeline](./pages/development/development-timeline.html)
+- [Conceptual Overview](/conceptual-overview/)
+- [Proposed Architecture](/proposed-architecture/)
+- [Development Timeline](/development-timeline/)
 
 ## Get Involved
 

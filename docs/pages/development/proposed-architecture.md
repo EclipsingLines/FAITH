@@ -138,4 +138,4 @@ The FAITH library will be implemented in modern C++ (C++17 or later) with the fo
 
 ## Timeline
 
-See the [Development Timeline](development-timeline.html) for the project schedule.
+See the [Development Timeline](/development-timeline/) for the project schedule.
