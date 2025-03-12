@@ -7,7 +7,7 @@
 .top-nav-container {
   position: fixed;
   top: 20px;
-  right: 20px;
+  left: 20px;
   z-index: 1000;
 }
 
@@ -77,7 +77,7 @@
 .top-nav-menu {
   position: absolute;
   top: 60px;
-  right: 0;
+  left: 0;
   width: 250px;
   background-color: #151515;
   border: 1px solid #b5e853;
@@ -191,7 +191,7 @@
 @media screen and (max-width: 600px) {
   .top-nav-container {
     top: 15px;
-    right: 15px;
+    left: 15px;
   }
   
   .top-nav-button {
