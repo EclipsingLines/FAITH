@@ -6,8 +6,8 @@
 /* Top Navigation Styles */
 .top-nav-container {
   position: fixed;
-  top: 10px;
-  right: 10px;
+  top: 20px;
+  right: 20px;
   z-index: 1000;
 }
 
@@ -156,21 +156,62 @@
   max-height: 500px;
 }
 
+/* Ko-fi Button Styles */
+.kofi-button-container {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 999;
+}
+
+.kofi-button {
+  display: inline-block;
+  padding: 10px 16px;
+  background-color: #b5e853;
+  color: #151515;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.kofi-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+  text-decoration: none;
+}
+
+.kofi-button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
 /* Responsive adjustments */
 @media screen and (max-width: 600px) {
-  .floating-nav-container {
-    bottom: 20px;
-    right: 20px;
+  .top-nav-container {
+    top: 15px;
+    right: 15px;
   }
   
-  .floating-nav-button {
-    width: 50px;
-    height: 50px;
+  .top-nav-button {
+    width: 45px;
+    height: 45px;
   }
   
-  .floating-nav-menu {
+  .top-nav-menu {
     width: 220px;
     max-width: calc(100vw - 60px);
     right: 0;
+  }
+  
+  .kofi-button-container {
+    bottom: 15px;
+    left: 15px;
+  }
+  
+  .kofi-button {
+    padding: 8px 12px;
+    font-size: 0.9em;
   }
 }
