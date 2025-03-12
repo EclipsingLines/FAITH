@@ -1,0 +1,24 @@
+<div class="floating-nav-container">
+  <button id="nav-toggle" class="floating-nav-button" aria-label="Toggle Navigation">
+    <span class="nav-icon"></span>
+  </button>
+  
+  <div class="floating-nav-menu">
+    <div class="nav-tree">
+      {% for item in site.navigation %}
+        {% if item.children %}
+          <div class="nav-item has-children">
+            <span class="nav-item-title">{{ item.title }}</span>
+            <div class="nav-children">
+              {% for child in item.children %}
+                <a href="{{ site.baseurl }}{{ child.url }}" class="nav-link">{{ child.title }}</a>
+              {% endfor %}
+            </div>
+          </div>
+        {% else %}
+          <a href="{{ site.baseurl }}{{ item.url }}" class="nav-link">{{ item.title }}</a>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>

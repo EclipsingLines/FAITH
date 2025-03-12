@@ -39,3 +39,32 @@ search:
   provider: lunr
   label: Search
   landing_page: /search
+
+# Navigation structure
+navigation:
+  - title: Home
+    url: /
+  - title: Overview
+    url: /conceptual-overview
+  - title: Models
+    children:
+      - title: Belief Model
+        url: /belief-model
+      - title: Perception Model
+        url: /perception-model
+      - title: Action Model
+        url: /action-model
+  - title: Implementation
+    children:
+      - title: Core Library
+        url: /core-library
+      - title: Engine Bindings
+        url: /engine-bindings
+      - title: Game-Specific Systems
+        url: /game-specific-systems
+  - title: Development
+    children:
+      - title: Architecture
+        url: /proposed-architecture
+      - title: Timeline
+        url: /development-timeline
