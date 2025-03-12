@@ -3,3 +3,22 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+<!-- Mermaid JS -->
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'dark',
+            themeVariables: {
+                primaryColor: '#b5e853',
+                primaryTextColor: '#fff',
+                primaryBorderColor: '#b5e853',
+                lineColor: '#b5e853',
+                secondaryColor: '#404040',
+                tertiaryColor: '#151515'
+            }
+        });
+    });
+</script>
