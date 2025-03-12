@@ -1,5 +1,5 @@
 ---
-layout: custom_default
+layout: default
 title: Game-Specific Systems
 ---
 
