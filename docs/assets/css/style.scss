@@ -3,17 +3,17 @@
 
 @import "{{ site.theme }}";
 
-/* Floating Navigation Styles */
-.floating-nav-container {
+/* Top Navigation Styles */
+.top-nav-container {
   position: fixed;
-  bottom: 30px;
-  right: 30px;
+  top: 10px;
+  right: 10px;
   z-index: 1000;
 }
 
-.floating-nav-button {
-  width: 60px;
-  height: 60px;
+.top-nav-button {
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   background-color: #151515;
   border: 2px solid #b5e853;
@@ -25,12 +25,12 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.floating-nav-button:hover {
+.top-nav-button:hover {
   transform: scale(1.05);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
 }
 
-.floating-nav-button.active {
+.top-nav-button.active {
   transform: rotate(90deg);
 }
 
@@ -62,21 +62,21 @@
   bottom: -8px;
 }
 
-.floating-nav-button.active .nav-icon {
+.top-nav-button.active .nav-icon {
   background-color: transparent;
 }
 
-.floating-nav-button.active .nav-icon:before {
+.top-nav-button.active .nav-icon:before {
   transform: rotate(45deg) translate(5px, 6px);
 }
 
-.floating-nav-button.active .nav-icon:after {
+.top-nav-button.active .nav-icon:after {
   transform: rotate(-45deg) translate(5px, -6px);
 }
 
-.floating-nav-menu {
+.top-nav-menu {
   position: absolute;
-  bottom: 75px;
+  top: 60px;
   right: 0;
   width: 250px;
   background-color: #151515;
@@ -86,11 +86,11 @@
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
   opacity: 0;
   visibility: hidden;
-  transform: translateY(20px);
+  transform: translateY(-20px);
   transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s;
 }
 
-.floating-nav-menu.active {
+.top-nav-menu.active {
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
