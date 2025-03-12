@@ -111,5 +111,5 @@ To adapt FAITH to your specific game:
 
 The Game-Specific Systems layer connects to:
 
-- [Core Library](/core-library/): The engine-agnostic AI systems
-- [Engine Bindings](/engine-bindings/): The engine integration layer
+- [Core Library](/FAITH/core-library/): The engine-agnostic AI systems
+- [Engine Bindings](/FAITH/engine-bindings/): The engine integration layer

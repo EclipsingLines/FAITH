@@ -78,5 +78,5 @@ Each engine binding includes:
 
 The Engine Bindings layer connects to:
 
-- [Core Library](/core-library/): The engine-agnostic AI systems
-- [Game-Specific Systems](/game-specific-systems/): Customizations for particular games
+- [Core Library](/FAITH/core-library/): The engine-agnostic AI systems
+- [Game-Specific Systems](/FAITH/game-specific-systems/): Customizations for particular games

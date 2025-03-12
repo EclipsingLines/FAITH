@@ -22,7 +22,7 @@ The Perception System processes and structures incoming sensory data:
 - **World Serializer**: Converts game-specific object representations into a standardized format
 - **Short-term Memory**: Maintains a buffer of recent perceptions for temporal reasoning
 
-[Learn more about the Perception Model](/perception-model/)
+[Learn more about the Perception Model](/FAITH/perception-model/)
 
 ### Generative Model
 
@@ -32,7 +32,7 @@ The Generative Model maintains the agent's beliefs about the world:
 - **Prediction Engine**: Generates expectations about future states
 - **Uncertainty Estimator**: Quantifies confidence in beliefs and predictions
 
-[Learn more about the Belief Model](/belief-model/)
+[Learn more about the Belief Model](/FAITH/belief-model/)
 
 ### Belief Updater
 
@@ -50,7 +50,7 @@ The Policy Selector determines the optimal actions to take:
 - **Expected Free Energy Calculator**: Computes EFE to minimize surprise
 - **Action Prioritizer**: Ranks actions based on expected outcomes
 
-[Learn more about the Action Model](/action-model/)
+[Learn more about the Action Model](/FAITH/action-model/)
 
 ### LLM Orchestration
 
@@ -82,5 +82,5 @@ The Core Library will be implemented in modern C++ with these considerations:
 
 The Core Library connects to the rest of the FAITH architecture through:
 
-- [Engine Bindings](/engine-bindings/): Adapters for specific game engines
-- [Game-Specific Systems](/game-specific-systems/): Customizations for particular games
+- [Engine Bindings](/FAITH/engine-bindings/): Adapters for specific game engines
+- [Game-Specific Systems](/FAITH/game-specific-systems/): Customizations for particular games

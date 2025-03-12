@@ -41,9 +41,9 @@ flowchart TB
 
 ## Documentation
 
-- [Conceptual Overview](/conceptual-overview/)
-- [Proposed Architecture](/proposed-architecture/)
-- [Development Timeline](/development-timeline/)
+- [Conceptual Overview](/FAITH/conceptual-overview/)
+- [Proposed Architecture](/FAITH/proposed-architecture/)
+- [Development Timeline](/FAITH/development-timeline/)
 
 ## Get Involved
 

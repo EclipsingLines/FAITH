@@ -24,9 +24,9 @@ FAITH aims to address these limitations by giving NPCs:
 
 The FAITH architecture consists of several interconnected models:
 
-- [Perception Model](/perception-model/): How agents sense and process the game world
-- [Belief Model](/belief-model/): How agents form and update internal world models
-- [Action Model](/action-model/): How agents decide what actions to take
+- [Perception Model](/FAITH/perception-model/): How agents sense and process the game world
+- [Belief Model](/FAITH/belief-model/): How agents form and update internal world models
+- [Action Model](/FAITH/action-model/): How agents decide what actions to take
 
 <div class="mermaid">
 flowchart TB
@@ -122,4 +122,4 @@ flowchart TB
 
 ## Timeline
 
-See the [Development Timeline](/development-timeline/) for the project schedule.
+See the [Development Timeline](/FAITH/development-timeline/) for the project schedule.
