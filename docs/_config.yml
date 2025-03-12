@@ -1,11 +1,6 @@
-# Chulapa theme configuration
-# Required plugins for Chulapa theme
+remote_theme: pages-themes/hacker@v0.2.0
 plugins:
-  - jekyll-paginate
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-github-metadata
-  - jekyll-include-cache
+- jekyll-remote-theme
 
 # Site Settings and SEO
 locale: "en-US"
